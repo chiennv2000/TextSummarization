@@ -25,26 +25,9 @@ Transformers: `2.11.0`
 `requirements.txt` exposes the library dependencies
 
 ### Training
-You need to create directories according to the path to evaluate model:
+You need to create directories according to the path to evaluate model by ROUGE-1.5.5:
 
-.
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html
+![](https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/117168071_1166154057073191_1999305517093526417_n.jpg?_nc_cat=100&_nc_sid=dbeb18&_nc_ohc=uq0ndgR2EYUAX__9DHV&_nc_ht=scontent.fhan5-7.fna&oh=d28129c8f2b3701015029d872a81965b&oe=5F57622E)
 
 To perform training, run the following command:
 
