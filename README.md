@@ -27,7 +27,7 @@ Transformers: `2.11.0`
 ### Training
 You need to create directories according to the path to evaluate model by ROUGE-1.5.5:
 
-<img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/117168071_1166154057073191_1999305517093526417_n.jpg?_nc_cat=100&_nc_sid=dbeb18&_nc_ohc=uq0ndgR2EYUAX__9DHV&_nc_ht=scontent.fhan5-7.fna&oh=d28129c8f2b3701015029d872a81965b&oe=5F57622E" alt="alt text" width="1000">
+<img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/117168071_1166154057073191_1999305517093526417_n.jpg?_nc_cat=100&_nc_sid=dbeb18&_nc_ohc=uq0ndgR2EYUAX__9DHV&_nc_ht=scontent.fhan5-7.fna&oh=d28129c8f2b3701015029d872a81965b&oe=5F57622E" alt="alt text" width="300">
 
 To perform training, run the following command:
 
