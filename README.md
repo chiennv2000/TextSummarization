@@ -27,21 +27,24 @@ Transformers: `2.11.0`
 ### Training
 You need to create directories according to the path to evaluate model:
 
-$ ./tree-md .
-# Project tree
-
 .
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
++-- _config.yml
++-- _drafts
+|   +-- begin-with-the-crazy-ideas.textile
+|   +-- on-simplicity-in-technology.markdown
++-- _includes
+|   +-- footer.html
+|   +-- header.html
++-- _layouts
+|   +-- default.html
+|   +-- post.html
++-- _posts
+|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
++-- _data
+|   +-- members.yml
++-- _site
++-- index.html
 
 To perform training, run the following command:
 
