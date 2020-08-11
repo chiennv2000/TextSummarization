@@ -27,14 +27,23 @@ Transformers: `2.11.0`
 ### Training
 You need to create directories according to the path to evaluate model:
 ├── evaluation
+
 │   ├── system_summaries
+
 │   │   ├── 0
+
 │   │   ├── ...
+
 │   │   ├── n_folds - 1
+
 │   └── model_summaries
+
 │   │   ├── 0
+
 │   │   ├── ...
+
 │   │   ├── n_folds - 1
+
 
 To perform training, run the following command:
 (You can also change the hyperparameters)
