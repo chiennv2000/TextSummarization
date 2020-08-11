@@ -42,4 +42,4 @@ To perform training, run the following command:
 python main.py
 ```
 
-You can also use this [notebook](https://github.com/chiennv2000/TextSumarization/blob/master/Text_Sumarization.ipynb) to train.
+You can also use this [notebook](https://github.com/chiennv2000/TextSumarization/blob/master/Text_Sumarization.ipynb) to train on Google Colaboratory.
