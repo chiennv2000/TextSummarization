@@ -11,7 +11,7 @@ This simple wrapper based on [Transformers](https://github.com/huggingface/trans
 
 ## Model architecture
 
-Here we created a custom classification head on top of the BERT backbone for. The sequence of a sentence and the title was fed into BERT and the relevant user post was fed into sentenceBERT. ```[CLS-C]``` token represents the final vector of the relevant user post in the final layer of sentenceBERT. We concatenated the 5 hidden representations, and fed it to a convolution neural network (CNN) for classification.
+Here we created a custom classification head on top of the BERT backbone. The sequence of a sentence and the title was fed into BERT and the relevant user post was fed into sentenceBERT. ```[CLS-C]``` token represents the final vector of the relevant user post in the final layer of sentenceBERT. We concatenated the 5 hidden representations, and fed it to a convolution neural network (CNN) for classification.
 
 <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/116874813_1166119750409955_4353412123860951616_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=rla-eJTRQBEAX-i9vYG&_nc_ht=scontent.fhan5-6.fna&oh=5b759ad1da6f8ffd665d29dd9bc150a0&oe=5F59C9E8" alt="alt text" width="850">
 
