@@ -37,3 +37,10 @@ python main.py
 ```
 
 You can also use this [notebook](https://github.com/chiennv2000/TextSumarization/blob/master/Text_Sumarization.ipynb) to train on Google Colaboratory.
+
+## Result
+
+| Datasets  |  ROUGE-1  |  ROUGE-2  |
+|-----------|-----------|-----------|
+| SoLSCSum  |  0.372    |  0.300    |
+| USA-CNN   |  0.284    |  0.093    |
