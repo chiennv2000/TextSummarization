@@ -1,4 +1,4 @@
-## Text Sumarization by BERT in PyTorch
+## Text Summarization by BERT in PyTorch
 
 Transformer-based Summarization by Exploiting Relevant User Comments, as proposed by us.
 Our model simulates the nature relationship between relevant user posts and the content of the main documents by sharing information in terms of important words or tokens.
